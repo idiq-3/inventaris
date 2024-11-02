@@ -31,7 +31,7 @@
                             
                             <div class="col-lg-6 d-none d-lg-block bg-login-image">
                                 <br/>
-                                <img src="/sbadmin/logo.png" width="70%">
+                                <img src="/sbadmin/img/login.png" width="100%">
                             </div>
 
                             <div class="col-lg-6">
@@ -45,9 +45,11 @@
                                         @csrf
 
                                         <div class="form-group">
-                                            <input type="text" name="username" class="form-control form-control-user">
+                                            <label for="username">username</label>
+                                            <input type="text" name="username" placeholder="example@mail.com" class="form-control form-control-user">
                                         </div>
                                         <div class="form-group">
+                                            <label for="password">password</label>
                                             <input type="password" name="password" class="form-control form-control-user">
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
