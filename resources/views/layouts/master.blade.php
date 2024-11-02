@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>SB Admin 2 - Dashboard</title>
+    @notifyCss
 
     <!-- Custom fonts for this template-->
     <link href="/sbadmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -104,7 +105,7 @@
                                 </form>
                             </div>
                         </li>
-                        
+
                         <div class="topbar-divider d-none d-sm-block"></div>
 
                         <!-- Nav Item - User Information -->
@@ -217,6 +218,9 @@
     <!-- Page level custom scripts -->
     <script src="/sbadmin/js/demo/chart-area-demo.js"></script>
     <script src="/sbadmin/js/demo/chart-pie-demo.js"></script>
+
+    <x-notify::notify />
+    @notifyJs
 
 </body>
 
