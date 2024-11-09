@@ -50,7 +50,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="password">password</label>
-                                            <input type="password" name="password" class="form-control form-control-user">
+                                            <input type="password" name="password" placeholder="password" class="form-control form-control-user">
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
